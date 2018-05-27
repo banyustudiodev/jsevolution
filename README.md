@@ -28,7 +28,7 @@ const randomSeed = 58239;
 
 // Override functions to optimize for your specific problem
 // Check out example in the examples folder for more details
-export class CustomFunctions extends DefaultFunctions {
+class CustomFunctions extends DefaultFunctions {
   // Before hook is called before genetic algorithm runs
   before() {
     // Your code here
