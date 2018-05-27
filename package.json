@@ -1,7 +1,8 @@
 {
   "name": "evolution",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "src/index.js",
+  "author": "Manfred Bork <bork.ma@t-online.de>",
   "license": "MIT",
   "scripts": {
     "build": "neutrino build",
