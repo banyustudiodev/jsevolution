@@ -53,6 +53,14 @@ class CustomFunctions extends DefaultFunctions {
     return cloned;
   }
 
+  // After hook called by genetic algorithm after each generation step
+  afterEach(algorithm) {
+    // Termination criteria
+    if (algorithm.population.getBest().objective === 0) {
+      algorithm.stop();
+    }
+  }
+
   // After hook called by genetic algorithm
   after(algorithm) {
     // Get best individual related to objective function
@@ -74,7 +82,7 @@ class CustomFunctions extends DefaultFunctions {
 
 const populationSize = 50;
 const populationType = IntegerChromosome;
-const populationIndividuals = [[6, 2, 4], [9, 1, 7], [8, 3, 5]];
+const populationIndividuals = [[6, 2, 4], [9, 1, 7], [5, 3, 8]];
 const numberGenerations = 100;
 const mutationProbability = 0.8;
 const crossoverProbability = 0.4;
