@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea1ba00-6e9c-4a64-89e4-c17dd79c4aad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/equation.js" afterPath="$PROJECT_DIR$/examples/equation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -470,7 +469,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122249000" />
+    <option name="totallyTimeSpent" value="122346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
