@@ -15,7 +15,7 @@ yarn add evolution
 # Usage
 
 ```javascript
-import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from './evolution';
+import { IntegerChromosome, Population, DefaultFunctions, GeneticAlgorithm } from './evolution';
 
 // Sets genetic algorithm parameters
 const populationSize = 100;
