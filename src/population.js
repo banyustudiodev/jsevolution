@@ -67,7 +67,6 @@ export class Population {
     return individual;
   }
   sort() {
-    this.selection = 0;
     this.individuals.sort((left, right) => {
       if (left.fitness < right.fitness) {
         return -1;
