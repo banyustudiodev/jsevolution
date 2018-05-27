@@ -92,4 +92,4 @@ or via yarn with
 ```
 yarn equation
 ```
-> Runs a genetic algorithm to get closest result to zero for a chosen linear equation
+> Runs a genetic algorithm to get closest result to zero for a cubic equation

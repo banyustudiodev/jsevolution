@@ -1,8 +1,13 @@
 {
   "name": "jsevolution",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "main": "src/index.js",
+  "keywords" : ["Genetic Algorithm", "GA", "Evolutionary Algorithm", "EA"],
   "author": "Manfred Bork <bork.ma@t-online.de>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manfredbork/jsevolution.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "neutrino build",

@@ -1,7 +1,7 @@
 import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from './jsevolution';
 
 class CustomFunctions extends DefaultFunctions {
-  // Own custom linear function to optimize for
+  // Own custom function to optimize for
   equation([x, y, z]) {
     return ((4 * (x ** 3)) - (8 * (y ** 2))) + (5 * z);
   }
