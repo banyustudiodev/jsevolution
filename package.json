@@ -1,6 +1,6 @@
 {
   "name": "jsevolution",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "main": "src/index.js",
   "author": "Manfred Bork <bork.ma@t-online.de>",
   "license": "MIT",
