@@ -28,8 +28,8 @@ class CustomFunctions extends DefaultFunctions {
 
     // Swap two random values as mutation
     cloned.chromosome.swap(
-      RandomNumber.getInteger(individual.chromosome.size() - 1),
-      RandomNumber.getInteger(individual.chromosome.size() - 1),
+      RandomNumber.getInteger(individual.chromosome.values.length - 1),
+      RandomNumber.getInteger(individual.chromosome.values.length - 1),
     );
 
     return cloned;
@@ -41,12 +41,12 @@ class CustomFunctions extends DefaultFunctions {
     const cloned = leftParent.clone();
 
     // Random index
-    const cut = RandomNumber.getInteger(cloned.chromosome.size() - 1);
+    const cut = RandomNumber.getInteger(cloned.chromosome.values.length - 1);
 
     // Create child from left und right parent
     cloned.chromosome.values.forEach((value, index) => {
       if (index >= cut) {
-        cloned.chromosome.values[index] = rightParent.chromosome.get(index);
+        cloned.chromosome.values[index] = rightParent.chromosome.values[index];
       }
     });
 

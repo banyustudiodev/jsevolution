@@ -85,11 +85,16 @@ export class GeneticAlgorithm {
   }
   next() {
     if (this.iterations < this.generations) {
-      if (RandomNumber.get() < this.mutationProbability) {
-        this.mutation();
+      for (let i = 0; i < this.population.size; i += 1) {
+        if (RandomNumber.get() < this.mutationProbability) {
+          this.mutation();
+        }
+        if (RandomNumber.get() < this.crossoverProbability) {
+          this.crossover();
+        }
       }
-      if (RandomNumber.get() < this.crossoverProbability) {
-        this.crossover();
+      if (this.population.individuals.length > this.population.size) {
+        this.population.removeWorst(this.population.individuals.length - this.population.size);
       }
       this.iterations = this.iterations + 1;
     }

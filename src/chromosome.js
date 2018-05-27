@@ -18,9 +18,6 @@ export class Chromosome {
   size() {
     return this.values.length;
   }
-  get(index) {
-    return this.values[index];
-  }
   set(index, value) {
     this.values[index] = value;
   }

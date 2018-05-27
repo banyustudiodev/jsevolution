@@ -32,16 +32,8 @@ export class Population {
   }
   add(individual) {
     if (!this.exists(individual)) {
-      if (this.full()) {
-        this.removeWorstFittest();
-      }
-      if (!this.full()) {
-        this.individuals.push(individual);
-      }
+      this.individuals.push(individual);
     }
-  }
-  full() {
-    return this.individuals.length === this.size;
   }
   exists(individual) {
     const individuals = [];
@@ -52,7 +44,7 @@ export class Population {
   }
   select() {
     const individual = this.individuals[this.selection];
-    this.selection = (this.selection + 1) % this.individuals.length;
+    this.selection = (this.selection + 1) % Math.min(this.individuals.length, this.size);
     return individual;
   }
   getBest() {
@@ -76,7 +68,7 @@ export class Population {
       return 0;
     });
   }
-  removeWorstFittest(numberIndividuals = 1) {
+  removeWorst(numberIndividuals = 1) {
     this.sort();
     const bestIndividual = this.getBest();
     let i = numberIndividuals;

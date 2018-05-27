@@ -1,16 +1,5 @@
 import { Chromosome, IntegerChromosome, BitChromosome } from './jsevolution';
 
-test('Chromosome size is correct', () => {
-  const chromosome = Chromosome.create(['foo', 'bar']);
-  expect(chromosome.size()).toBe(2);
-});
-
-test('Chromosome get and set works fine', () => {
-  const chromosome = Chromosome.create(['foo']);
-  chromosome.set(0, 'bar');
-  expect(chromosome.get(0)).toBe('bar');
-});
-
 test('Chromosome swap works fine', () => {
   const chromosome = Chromosome.create(['yep', 'bar', 'foo']);
   chromosome.swap(0, 2);
