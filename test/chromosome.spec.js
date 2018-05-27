@@ -1,4 +1,4 @@
-import { Chromosome, IntegerChromosome, BitChromosome } from './evolution';
+import { Chromosome, IntegerChromosome, BitChromosome } from './jsevolution';
 
 test('Chromosome size is correct', () => {
   const chromosome = Chromosome.create(['foo', 'bar']);

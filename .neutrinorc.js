@@ -4,7 +4,7 @@ module.exports = {
     [
       '@neutrinojs/library',
       {
-        name: 'evolution'
+        name: 'jsevolution'
       }
     ],
     '@neutrinojs/jest'

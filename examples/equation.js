@@ -1,4 +1,4 @@
-import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from './evolution';
+import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from './jsevolution';
 
 class CustomFunctions extends DefaultFunctions {
   // Own custom linear function to optimize for

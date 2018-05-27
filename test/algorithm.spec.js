@@ -1,4 +1,4 @@
-import { BitChromosome, Population, DefaultFunctions, GeneticAlgorithm } from './evolution';
+import { BitChromosome, Population, DefaultFunctions, GeneticAlgorithm } from './jsevolution';
 
 test('GeneticAlgorithm population size is correct', () => {
   class Functions extends DefaultFunctions {

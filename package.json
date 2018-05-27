@@ -1,6 +1,6 @@
 {
-  "name": "evolution",
-  "version": "0.1.4",
+  "name": "jsevolution",
+  "version": "0.1.5",
   "main": "src/index.js",
   "author": "Manfred Bork <bork.ma@t-online.de>",
   "license": "MIT",
@@ -17,5 +17,6 @@
     "@neutrinojs/jest": "^8.2.3",
     "@neutrinojs/library": "^8.2.3",
     "neutrino": "^8.2.3"
-  }
+  },
+  "dependencies": {}
 }

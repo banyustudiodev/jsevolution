@@ -1,4 +1,4 @@
-import { BitChromosome, Individual, Population } from './evolution';
+import { BitChromosome, Individual, Population } from './jsevolution';
 
 test('Individual clone is not identical', () => {
   const individual = Individual.create(BitChromosome, [1, 1, 1, 1]);
