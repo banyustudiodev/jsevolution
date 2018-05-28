@@ -73,7 +73,7 @@ class CustomFunctions extends DefaultFunctions {
     console.log(`
       The best tuple of integers found is (${best.chromosome.values}) with a fitness value of ${best.fitness}
       after ${algorithm.iterations} generations with a population size of ${algorithm.population.size}  
-      Therefore the closest available result to zero is 4×${best.chromosome.values[0]}³-8×${best.chromosome.values[1]}²+5×${best.chromosome.values[2]}=${result}
+      Then the result which is close or equal to zero is 4×${best.chromosome.values[0]}³-8×${best.chromosome.values[1]}²+5×${best.chromosome.values[2]}=${result}
       
       >> Please feel free to play around with the example code <<
     `);
