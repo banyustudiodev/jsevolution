@@ -15,7 +15,7 @@ yarn add jsevolution
 # Usage
 
 ```javascript
-import { IntegerChromosome, Population, DefaultFunctions, GeneticAlgorithm } from './jsevolution';
+import { IntegerChromosome, Population, DefaultFunctions, GeneticAlgorithm } from 'jsevolution';
 
 // Sets genetic algorithm parameters
 const populationSize = 100;
