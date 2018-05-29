@@ -9,6 +9,12 @@ export class DefaultFunctions {
   objective(individual) {
     return this.fitness(individual);
   }
+  selection(population) {
+    const individual = population.individuals[population.selected];
+    population.selected =
+      (population.selected + 1) % Math.min(population.individuals.length, population.size);
+    return individual;
+  }
   mutation(individual) {
     return individual.clone();
   }

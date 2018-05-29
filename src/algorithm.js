@@ -109,13 +109,18 @@ export class GeneticAlgorithm {
     return this.stopped;
   }
   mutation() {
-    const individual = this.functions.mutation(this.population.select());
-    individual.update(this.functions);
-    this.population.add(individual);
+    this.population
+      .add(this.functions
+        .mutation(this.functions
+          .selection(this.population))
+        .update(this.functions));
   }
   crossover() {
-    const individual = this.functions.crossover(this.population.select(), this.population.select());
-    individual.update(this.functions);
-    this.population.add(individual);
+    this.population
+      .add(this.functions
+        .crossover(this.functions
+          .selection(this.population), this.functions
+          .selection(this.population))
+        .update(this.functions));
   }
 }

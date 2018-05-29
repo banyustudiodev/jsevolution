@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8ea1ba00-6e9c-4a64-89e4-c17dd79c4aad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.js" afterPath="$PROJECT_DIR$/build/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.js.map" afterPath="$PROJECT_DIR$/build/index.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/equation.js" afterPath="$PROJECT_DIR$/examples/equation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithm.js" afterPath="$PROJECT_DIR$/src/algorithm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chromosome.js" afterPath="$PROJECT_DIR$/src/chromosome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/functions.js" afterPath="$PROJECT_DIR$/src/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/population.js" afterPath="$PROJECT_DIR$/src/population.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +33,8 @@
       <file leaf-file-name="algorithm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="46" lean-forward="false" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+            <state relative-caret-position="286">
+              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -34,8 +43,18 @@
       <file leaf-file-name="population.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/population.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="528">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -44,8 +63,8 @@
       <file leaf-file-name="chromosome.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chromosome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,21 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="population.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/population.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -95,21 +104,23 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-511">
-                <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <first_editor relative-caret-position="120">
+                <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
                 <folding>
-                  <marker date="1527513234888" expanded="true" signature="986:1106" ph="//..." />
-                  <marker date="1527513234888" expanded="true" signature="1154:1912" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1224:1251" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1312:1339" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1396:1423" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1429:1482" ph="//..." />
-                  <marker date="1527513234888" expanded="true" signature="1429:1512" ph="//..." />
-                  <marker date="1527513234888" expanded="true" signature="1527:1554" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1613:1640" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1701:1728" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1787:1814" ph="{...}" />
-                  <marker date="1527513234888" expanded="true" signature="1883:1910" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="986:1106" ph="//..." />
+                  <marker date="1527579187611" expanded="true" signature="1154:2000" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1224:1251" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1312:1339" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1396:1423" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1429:1482" ph="//..." />
+                  <marker date="1527579187611" expanded="true" signature="1429:1512" ph="//..." />
+                  <marker date="1527579187611" expanded="true" signature="1527:1554" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1615:1642" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1639:1642" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1701:1728" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1789:1816" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1875:1902" ph="{...}" />
+                  <marker date="1527579187611" expanded="true" signature="1971:1998" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -120,8 +131,18 @@
       <file leaf-file-name="equation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/equation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+            <state relative-caret-position="1165">
+              <caret line="81" column="88" lean-forward="false" selection-start-line="81" selection-start-column="88" selection-end-line="81" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -138,19 +159,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>max</find>
-      <find>individuals</find>
-      <find>first</find>
-      <find>secondIndex</find>
-      <find>obj</find>
-      <find>objective</find>
-      <find>...</find>
-      <find>costs</find>
       <find>Fitness</find>
       <find>WorstFitness</find>
       <find>maxValue</find>
       <find>new</find>
-      <find>update</find>
       <find>chromosome.values.length</find>
       <find>(individual) =&gt;</find>
       <find>update(</find>
@@ -161,13 +173,22 @@
       <find>values[</find>
       <find>new TypeError</find>
       <find>chromosome.values[</find>
-      <find>size()</find>
       <find>worst</find>
       <find>removeWo</find>
       <find>removeW</find>
       <find>selection +</find>
       <find>lin</find>
       <find>linear</find>
+      <find>select()</find>
+      <find>select(</find>
+      <find>select</find>
+      <find>selection</find>
+      <find>individuals.le</find>
+      <find>update</find>
+      <find>size()</find>
+      <find>exists</find>
+      <find>forEach(</find>
+      <find>assign</find>
     </findStrings>
     <replaceStrings>
       <replace>this.</replace>
@@ -184,10 +205,11 @@
       <replace>./jsevolution</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/test</dir>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/build</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/test</dir>
+      <dir>$PROJECT_DIR$/examples</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -225,19 +247,20 @@
         <option value="$PROJECT_DIR$/test/evolution.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/examples/vrp.js" />
-        <option value="$PROJECT_DIR$/src/functions.js" />
         <option value="$PROJECT_DIR$/examples/linear.js" />
         <option value="$PROJECT_DIR$/example/equation.js" />
-        <option value="$PROJECT_DIR$/.eslintignore" />
         <option value="$PROJECT_DIR$/test/algorithm.spec.js" />
-        <option value="$PROJECT_DIR$/src/chromosome.js" />
         <option value="$PROJECT_DIR$/test/chromosome.spec.js" />
         <option value="$PROJECT_DIR$/test/population.spec.js" />
-        <option value="$PROJECT_DIR$/src/population.js" />
-        <option value="$PROJECT_DIR$/src/algorithm.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/functions.js" />
+        <option value="$PROJECT_DIR$/.eslintignore" />
+        <option value="$PROJECT_DIR$/src/algorithm.js" />
+        <option value="$PROJECT_DIR$/src/chromosome.js" />
         <option value="$PROJECT_DIR$/examples/equation.js" />
+        <option value="$PROJECT_DIR$/src/population.js" />
       </list>
     </option>
   </component>
@@ -278,8 +301,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,12 +310,22 @@
               <item name="jsevolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="jsevolution" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jsevolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsevolution" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jsevolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jsevolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,11 +488,12 @@
       <workItem from="1527512945383" duration="22000" />
       <workItem from="1527513209841" duration="338000" />
       <workItem from="1527513818074" duration="214000" />
+      <workItem from="1527578401376" duration="6333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122932000" />
+    <option name="totallyTimeSpent" value="129265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,20 +516,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2899878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,7 +538,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="125" width="1480" height="753" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,14 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/equation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/population.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -690,13 +716,13 @@
     <entry file="file://$PROJECT_DIR$/src/example.js" />
     <entry file="file://$PROJECT_DIR$/src/examples/vrp.js" />
     <entry file="file://$PROJECT_DIR$/build/index.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4044" lean-forward="false" selection-start-line="0" selection-start-column="4044" selection-end-line="0" selection-end-column="4044" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.js">
@@ -724,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -742,13 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -764,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,10 +787,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chromosome.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.neutrinorc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -792,41 +810,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/population.js">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="-5646">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chromosome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="46" lean-forward="false" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+        <state relative-caret-position="286">
+          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/population.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.neutrinorc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -834,31 +861,41 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-511">
-            <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <first_editor relative-caret-position="120">
+            <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
             <folding>
-              <marker date="1527513234888" expanded="true" signature="986:1106" ph="//..." />
-              <marker date="1527513234888" expanded="true" signature="1154:1912" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1224:1251" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1312:1339" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1396:1423" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1429:1482" ph="//..." />
-              <marker date="1527513234888" expanded="true" signature="1429:1512" ph="//..." />
-              <marker date="1527513234888" expanded="true" signature="1527:1554" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1613:1640" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1701:1728" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1787:1814" ph="{...}" />
-              <marker date="1527513234888" expanded="true" signature="1883:1910" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="986:1106" ph="//..." />
+              <marker date="1527579187611" expanded="true" signature="1154:2000" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1224:1251" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1312:1339" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1396:1423" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1429:1482" ph="//..." />
+              <marker date="1527579187611" expanded="true" signature="1429:1512" ph="//..." />
+              <marker date="1527579187611" expanded="true" signature="1527:1554" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1615:1642" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1639:1642" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1701:1728" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1789:1816" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1875:1902" ph="{...}" />
+              <marker date="1527579187611" expanded="true" signature="1971:1998" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/equation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="1165">
+          <caret line="81" column="88" lean-forward="false" selection-start-line="81" selection-start-column="88" selection-end-line="81" selection-end-column="88" />
           <folding />
         </state>
       </provider>

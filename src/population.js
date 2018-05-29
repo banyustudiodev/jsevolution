@@ -1,5 +1,5 @@
 export class Individual {
-  static create(ChromosomeClass, values, fitness = Infinity, objective = fitness) {
+  static create(ChromosomeClass, values, fitness, objective) {
     return new Individual(ChromosomeClass.create(values), fitness, objective);
   }
   constructor(chromosome, fitness, objective) {
@@ -15,6 +15,7 @@ export class Individual {
   update(functions) {
     this.fitness = functions.fitness(this);
     this.objective = functions.objective(this);
+    return this;
   }
 }
 
@@ -24,28 +25,23 @@ export class Population {
   }
   constructor(size, ChromosomeClass, individuals) {
     this.individuals = [];
-    individuals.forEach((values) => {
-      this.individuals.push(Individual.create(ChromosomeClass, values));
+    individuals.forEach((v) => {
+      this.individuals.push(Individual.create(ChromosomeClass, v));
     });
-    this.selection = 0;
+    this.selected = 0;
     this.size = size;
   }
   add(individual) {
-    if (!this.exists(individual)) {
+    if (!this.contains(individual)) {
       this.individuals.push(individual);
     }
   }
-  exists(individual) {
+  contains(individual) {
     const individuals = [];
     this.individuals.forEach((i) => {
       individuals.push(i.chromosome.values.toString());
     });
     return individuals.includes(individual.chromosome.values.toString());
-  }
-  select() {
-    const individual = this.individuals[this.selection];
-    this.selection = (this.selection + 1) % Math.min(this.individuals.length, this.size);
-    return individual;
   }
   getBest() {
     let individual = {
@@ -58,25 +54,22 @@ export class Population {
     });
     return individual;
   }
-  sort() {
-    this.individuals.sort((left, right) => {
-      if (left.fitness < right.fitness) {
+  removeWorst(numberIndividuals) {
+    this.individuals.sort((l, r) => {
+      if (l.fitness < r.fitness) {
         return -1;
-      } else if (left.fitness > right.fitness) {
+      } else if (l.fitness > r.fitness) {
         return 1;
       }
       return 0;
     });
-  }
-  removeWorst(numberIndividuals = 1) {
-    this.sort();
     const bestIndividual = this.getBest();
     let i = numberIndividuals;
     while (i > 0 && this.individuals.length > 2) {
-      const individual = [].concat(this.individuals).pop();
+      const individual = this.individuals.pop();
       this.individuals = this.individuals.slice(0, -1);
       if (individual === bestIndividual) {
-        this.individuals = [individual].concat(this.individuals);
+        this.individuals = [...[individual], ...this.individuals];
       } else {
         i -= 1;
       }

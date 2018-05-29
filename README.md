@@ -50,6 +50,11 @@ class CustomFunctions extends DefaultFunctions {
     // Your code here
   }
   
+  // Override with your selection operator
+  selection() {
+    // Your code here
+  }
+  
   // Override with your mutation operator
   mutation() {
     // Your code here

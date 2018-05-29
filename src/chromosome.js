@@ -6,17 +6,14 @@ export class Chromosome {
     this.values = new Array(values.length);
     this.min = min;
     this.max = max;
-    values.forEach((value, index) => {
-      this.set(index, value);
+    values.forEach((v, i) => {
+      this.set(i, v);
     });
   }
   clone() {
     const cloned = Object.assign(Object.create(this), this);
     cloned.values = [...this.values];
     return cloned;
-  }
-  size() {
-    return this.values.length;
   }
   set(index, value) {
     this.values[index] = value;

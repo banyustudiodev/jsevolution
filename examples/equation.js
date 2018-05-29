@@ -3,14 +3,14 @@ import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticA
 class CustomFunctions extends DefaultFunctions {
   // Own custom function to optimize for
   equation([x, y, z]) {
-    return ((4 * (x ** 3)) - (8 * (y ** 2))) + (5 * z);
+    return ((4 * (x ** 3)) - (8 * (y ** 2))) + (7 * z);
   }
 
   // Before hook called by genetic algorithm
   before() {
     console.log(`
       =============================================================================
-      Running genetic algorithm to optimize for 4x³-8y²+5z≈0 with x,y,z ∈ {1,...,9}
+      Running genetic algorithm to optimize for 4x³-8y²+7z≈0 with x,y,z ∈ {1,...,9}
       =============================================================================
     `);
   }
@@ -19,6 +19,14 @@ class CustomFunctions extends DefaultFunctions {
   fitness(individual) {
     // Fitness is absolute distance to zero
     return Math.abs(this.equation(individual.chromosome.values));
+  }
+
+  // Selection function called by genetic algorithm
+  selection(population) {
+    // Random selection
+    population.selected = RandomNumber.getInteger(population.individuals.length - 1);
+
+    return population.individuals[population.selected];
   }
 
   // Mutation function called by genetic algorithm
@@ -44,9 +52,9 @@ class CustomFunctions extends DefaultFunctions {
     const cut = RandomNumber.getInteger(cloned.chromosome.values.length - 1);
 
     // Create child from left und right parent
-    cloned.chromosome.values.forEach((value, index) => {
-      if (index >= cut) {
-        cloned.chromosome.values[index] = rightParent.chromosome.values[index];
+    cloned.chromosome.values.forEach((v, i) => {
+      if (i >= cut) {
+        cloned.chromosome.values[i] = rightParent.chromosome.values[i];
       }
     });
 
@@ -71,9 +79,9 @@ class CustomFunctions extends DefaultFunctions {
 
     // By default objective function is equal to fitness function
     console.log(`
-      The best tuple of integers found is (${best.chromosome.values}) with a fitness value of ${best.fitness}
-      after ${algorithm.iterations} generations with a population size of ${algorithm.population.size}  
-      Then the result which is close or equal to zero is 4×${best.chromosome.values[0]}³-8×${best.chromosome.values[1]}²+5×${best.chromosome.values[2]}=${result}
+      The best tuple (${best.chromosome.values}) found after ${algorithm.iterations} of maximal ${algorithm.generations} generations
+      with a population size of ${algorithm.population.size} has a fitness value of ${best.fitness} 
+      Then 4×${best.chromosome.values[0]}³-8×${best.chromosome.values[1]}²+7×${best.chromosome.values[2]}=${result} is the closest or exact result for this optimization
       
       >> Please feel free to play around with the example code <<
     `);
