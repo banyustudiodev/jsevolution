@@ -5,7 +5,6 @@ function equation([x, y, z]) {
 }
 
 class CustomFunctions extends DefaultFunctions {
-
   // Before hook called by genetic algorithm
   before() {
     console.log(`
