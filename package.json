@@ -1,6 +1,6 @@
 {
   "name": "jsevolution",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "main": "build/index.js",
   "keywords": [
     "Genetic Algorithm",
@@ -18,15 +18,14 @@
     "build": "neutrino build",
     "lint": "neutrino lint",
     "test": "neutrino test",
-    "equation": "babel-node --presets env examples/equation.js"
+    "equation": "babel-node --presets node8 examples/equation.js"
   },
   "devDependencies": {
     "@neutrinojs/airbnb-base": "^8.2.3",
     "@neutrinojs/jest": "^8.2.3",
     "@neutrinojs/library": "^8.2.3",
     "babel-cli": "^6.0.0",
-    "babel-preset-env": "^1.7.0",
+    "babel-preset-node8": "^1.2.0",
     "neutrino": "^8.2.3"
-  },
-  "dependencies": {}
+  }
 }
