@@ -1,10 +1,10 @@
-import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from './jsevolution';
+import { IntegerChromosome, Population, DefaultFunctions, RandomNumber, GeneticAlgorithm } from '../build/index';
+
+function equation([x, y, z]) {
+  return ((4 * (x ** 3)) - (8 * (y ** 2))) + (7 * z);
+}
 
 class CustomFunctions extends DefaultFunctions {
-  // Own custom function to optimize for
-  equation([x, y, z]) {
-    return ((4 * (x ** 3)) - (8 * (y ** 2))) + (7 * z);
-  }
 
   // Before hook called by genetic algorithm
   before() {
@@ -18,7 +18,7 @@ class CustomFunctions extends DefaultFunctions {
   // Fitness function called by genetic algorithm
   fitness(individual) {
     // Fitness is absolute distance to zero
-    return Math.abs(this.equation(individual.chromosome.values));
+    return Math.abs(equation(individual.chromosome.values));
   }
 
   // Selection function called by genetic algorithm
@@ -75,7 +75,7 @@ class CustomFunctions extends DefaultFunctions {
     const best = algorithm.population.getBest();
 
     // Equation result for best individual
-    const result = this.equation(best.chromosome.values);
+    const result = equation(best.chromosome.values);
 
     // By default objective function is equal to fitness function
     console.log(`
