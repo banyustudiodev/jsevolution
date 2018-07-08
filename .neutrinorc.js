@@ -4,7 +4,16 @@ module.exports = {
     [
       '@neutrinojs/library',
       {
-        name: 'jsevolution'
+        name: 'jsevolution',
+        babel: {
+          presets: [
+            ['babel-preset-env', {
+              targets: {
+                'node': 'current'
+              }
+            }]
+          ]
+        }
       }
     ],
     '@neutrinojs/jest'

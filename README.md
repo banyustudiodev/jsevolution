@@ -6,11 +6,11 @@ In computer science and operations research, a genetic algorithm (GA) is a metah
 # Install
 Install via npm with
 ```
-npm install jsevolution
+npm install jsevolution --save-dev
 ```
 or via yarn with
 ```
-yarn add jsevolution
+yarn add jsevolution --dev
 ```
 # Usage
 
@@ -91,10 +91,10 @@ GeneticAlgorithm.run(
 
 Run equation example via npm with
 ```
-npm run equation
+npm run example
 ```
 or via yarn with
 ```
-yarn equation
+yarn example
 ```
 > Runs a genetic algorithm to get closest result to zero for a cubic equation
