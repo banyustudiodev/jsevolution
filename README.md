@@ -27,7 +27,7 @@ const crossoverProbability = 0.5;
 const randomSeed = 58239;
 
 // Override functions to optimize for your specific problem
-// Check out example in the examples folder for more details
+// Check out example in the example folder for more details
 class CustomFunctions extends DefaultFunctions {
   // Before hook is called before genetic algorithm runs
   before() {
@@ -86,8 +86,8 @@ GeneticAlgorithm.run(
   randomSeed
 );
 ```
-# Examples
-> See examples folder
+# Example
+> See example folder
 
 Run equation example via npm with
 ```
