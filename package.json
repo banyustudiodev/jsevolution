@@ -8,6 +8,7 @@
     "Evolutionary Algorithm",
     "EA"
   ],
+  "description": "A JavaScript library for genetic algorithms",
   "author": "Manfred Bork <bork.ma@t-online.de>",
   "repository": {
     "type": "git",
