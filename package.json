@@ -1,6 +1,6 @@
 {
   "name": "jsevolution",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "main": "build/index.js",
   "keywords": [
     "Genetic Algorithm",

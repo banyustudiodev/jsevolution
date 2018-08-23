@@ -6,11 +6,11 @@ In computer science and operations research, a genetic algorithm (GA) is a metah
 # Install
 Install via npm with
 ```
-npm install jsevolution --save-dev
+npm install jsevolution --save
 ```
 or via yarn with
 ```
-yarn add jsevolution --dev
+yarn add jsevolution
 ```
 # Usage
 
